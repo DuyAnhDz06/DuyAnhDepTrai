@@ -1,0 +1,128 @@
+
+.bodyconca{
+    background-color: #efe3a7;
+    margin: 0;
+    /* // canh bố cục đều 2 bên */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+.header{
+    background-color: #458B74;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+    
+}
+
+div.header a{
+    text-decoration: none;
+    color: rgb(248,248,255);
+    descent-override: none;
+    padding: 20px 20px;
+}
+
+.header ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+
+.search{
+    text-align: right;
+    margin-bottom: 30px;
+    
+}
+
+.search input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    margin: 0;
+    padding: 14px;
+    border-radius: 70%;
+}
+
+.search img{
+    margin-top: -5px;
+    margin-bottom: -4px;
+    object-fit: cover;
+    width: 25px;
+    height: auto;
+
+    image-rendering: pixelated;
+}
+
+.search button {
+    margin-right: 16px;
+   
+    padding: 14px;
+}
+
+.right{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.footer{
+    background-color: #458B74;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.footer p{
+    padding-top: 10px;
+}
+
+thead{
+    background-color: #f6e27ca3;
+}
+/* ảnh banner */
+img{
+    width: 350px;
+    margin-right: 55%;
+}
+img.conca{
+    image-rendering: pixelated;
+    display: block;
+    height: 250px;
+    width: 1100px;
+    margin: 30px auto;
+   
+}
+/* CÁI image-rendering: pixelated NÓ LÀM ẢNH SIÊU NÉT */
+.login input, .signup input{
+    height: 30px;
+}
+
+form.signup{
+    background-color: #efe3a7;
+    padding: 30px 30px;
+    margin: 10% auto;
+    border-radius: 10px;
+    height: auto;
+    width: 300px;
+    text-align: center;
+    box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+}
+
+html{
+    background-image: url("https://toanthaydinh.com/wp-content/uploads/2020/05/hinh-nen-anime.jpg");
+}
+form.login {
+    background-color: #efe3a7;
+    padding: 30px 30px;
+    margin: 15% auto;
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+
+}
